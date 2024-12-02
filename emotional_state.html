@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emotional State</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="timeline.html">Timeline</a></li>
+                <li><a href="quizzes_puzzles.html">Quizzes & Puzzles</a></li>
+                <li><a href="places_to_visit.html">Places to Visit</a></li>
+                <li><a href="foods_to_try.html">Foods to Try</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Emotional State Form -->
+    <main>
+        <h1>How Are You Feeling?</h1>
+        <form id="emotionalForm">
+            <label for="emotion">Choose your emotion:</label>
+            <select id="emotion" name="emotion" required>
+                <option value="happy">Happy 😊</option>
+                <option value="sad">Sad 😢</option>
+                <option value="excited">Excited 🤩</option>
+                <option value="angry">Angry 😡</option>
+                <option value="loved">Loved ❤️</option>
+            </select>
+
+            <label for="reason">Tell me why:</label>
+            <textarea id="reason" name="reason" rows="4" required></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>Made with ❤️ by You</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
